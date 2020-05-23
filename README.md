@@ -7,7 +7,8 @@ This is a simple application to search an Instagram user and fetch details of th
 3. Thymeleaf template engine
 
 
-**Screens**
+# Screenshots
+
 ![Home page](/screenshots/home_page.png)
 
 ![View Details page](/screenshots/user_details_page.png)
