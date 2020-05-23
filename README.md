@@ -10,4 +10,4 @@ This is a simple application to search an Instagram user and fetch details of th
 **Screens**
 ![Home page](/screenshots/home_page.png)
 
-![View Details page](/img/user_details_page.png)
+![View Details page](/screenshots/user_details_page.png)
