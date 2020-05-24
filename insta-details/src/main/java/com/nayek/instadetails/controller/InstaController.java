@@ -19,8 +19,8 @@ import com.nayek.instadetails.model.User;
 @RequestMapping("/insta-app")
 public class InstaController {
 
-	private static final String username = "<Your username>";
-	private static final String password = "Your password";
+	private static final String username = "<your instagram username>";
+	private static final String password = "<your password>";
 
 	@GetMapping("/home")
 	public ModelAndView showHomePage() {

@@ -7,12 +7,49 @@
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
 	crossorigin="anonymous">
+
+<style>
+/* Style the body */
+body {
+	font-family: Arial;
+	margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+	padding: 60px;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 30px;
+}
+
+/* Page Content */
+.content {
+	padding: 20px;
+}
+
+/* body content to center */
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+</style>
 </head>
 <body>
+	<div class="header">
+		<h1>InstaDetail</h1>
+		<p>Get Instagram user details in seconds.</p>
+	</div>
 
 	<div class="container container-fluid">
 		<h1>User Details</h1>
-		<table class="table table-striped table-dark table-bordered table-hover">
+		<a href="/insta-app/home" class="btn btn-link" style="float:right">Search another user</a>
+		<table
+			class="table table-striped table-dark table-bordered table-hover">
 			<tr>
 				<th>Property</th>
 				<th>Value</th>
@@ -50,9 +87,6 @@
 				<td th:text="${user.followingCount}"></td>
 			</tr>
 		</table>
-
-		<a href="/insta-app/home">Search another user</a>
-
 	</div>
 </body>
 </html>
